@@ -11,7 +11,7 @@ License:	GPL
 BuildRoot:	%{_tmppath}/%{name}-root
 Summary:	FuseIso is a FUSE module to mount ISO filesystem images
 Group:		File tools
-BuildRequires:	fuse-devel >= 2.2, glib2-devel >= 2.2
+BuildRequires:	fuse-devel >= 2.2, glib2-devel >= 2.2, zlib-devel
 Requires:	fuse >= 2.2
 %description
 FuseIso is a FUSE module to mount ISO filesystem images (.iso files,
