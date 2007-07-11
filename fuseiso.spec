@@ -1,5 +1,5 @@
 %define	name	fuseiso
-%define version	20061017
+%define version	20070708
 %define release	%mkrel 1
 
 Name:		%name
@@ -23,6 +23,7 @@ The main advantage of using this is that you don't have to be root.
 %setup -q
 
 %build
+autoreconf
 %configure
 %make
 
