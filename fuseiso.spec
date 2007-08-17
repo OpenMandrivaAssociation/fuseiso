@@ -23,6 +23,7 @@ The main advantage of using this is that you don't have to be root.
 %setup -q
 
 %build
+export LDFLAGS="`pkg-config glib-2.0 --libs` -lz"
 autoreconf
 %configure
 %make
