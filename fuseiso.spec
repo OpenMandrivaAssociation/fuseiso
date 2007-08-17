@@ -7,7 +7,7 @@ Version:	%version
 Release:	%release
 Source:		http://ubiz.ru/dm/%{name}-%{version}.tar.bz2
 URL:		http://fuse.sourceforge.net/wiki/index.php/FuseIso
-License:	GPL
+License:	GPLv2+
 BuildRoot:	%{_tmppath}/%{name}-root
 Summary:	FuseIso is a FUSE module to mount ISO filesystem images
 Group:		File tools
