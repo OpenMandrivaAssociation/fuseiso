@@ -1,6 +1,6 @@
 %define	name	fuseiso
 %define version	20070708
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Name:		%name
 Version:	%version
