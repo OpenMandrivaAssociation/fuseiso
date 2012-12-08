@@ -39,3 +39,37 @@ autoreconf
 %doc AUTHORS COPYING NEWS ChangeLog README 
 %{_bindir}/%{name}
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 20070708-6mdv2011.0
++ Revision: 618375
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 20070708-5mdv2010.0
++ Revision: 428973
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 20070708-4mdv2009.0
++ Revision: 245513
+- rebuild
+
+* Mon Feb 18 2008 Thierry Vignaud <tv@mandriva.org> 20070708-2mdv2008.1
++ Revision: 170848
+- rebuild
+- fix "foobar is blabla" summary (=> "blabla") so that it looks nice in rpmdrake
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Fri Aug 17 2007 Nicolas Vigier <nvigier@mandriva.com> 20070708-1mdv2008.0
++ Revision: 64896
+- update license tag
+- new version
+- run autoreconf before ./configure
+
+* Wed May 23 2007 Nicolas Vigier <nvigier@mandriva.com> 20061017-1mdv2008.0
++ Revision: 30340
+- Import fuseiso
+
