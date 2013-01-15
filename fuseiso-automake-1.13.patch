@@ -1,0 +1,13 @@
+--- fuseiso-20070708/configure.in.bero	2013-01-15 21:27:00.701819414 +0100
++++ fuseiso-20070708/configure.in	2013-01-15 21:27:16.675628155 +0100
+@@ -1,7 +1,7 @@
+-AC_INIT(configure.in)
++AC_INIT(fuseiso, 20070708)
+ 
+-AM_CONFIG_HEADER(config.h)
+-AM_INIT_AUTOMAKE(fuseiso, 20070708)
++AC_CONFIG_HEADERS([config.h])
++AM_INIT_AUTOMAKE
+ 
+ AC_LANG_C
+ AC_PROG_CC
