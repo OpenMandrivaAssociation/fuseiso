@@ -21,7 +21,7 @@ The main advantage of using this is that you don't have to be root.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 autoreconf
 
 %build
