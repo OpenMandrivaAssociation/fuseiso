@@ -4,7 +4,7 @@ Version:	20070708
 Release:	18
 License:	GPLv2+
 Group:		File tools
-Url:		http://fuse.sourceforge.net/wiki/index.php/FuseIso
+Url:		https://fuse.sourceforge.net/wiki/index.php/FuseIso
 Source0:	http://ubiz.ru/dm/%{name}-%{version}.tar.bz2
 Patch0:		fuseiso-automake-1.13.patch
 
