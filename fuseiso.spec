@@ -8,6 +8,11 @@ Url:		https://fuse.sourceforge.net/wiki/index.php/FuseIso
 Source0:	http://ubiz.ru/dm/%{name}-%{version}.tar.bz2
 Patch0:		fuseiso-automake-1.13.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(fuse)
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(zlib)
